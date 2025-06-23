@@ -109,7 +109,7 @@ def handle_all(message):
                 if message.text.strip() == f.read().strip():
                     users[uid] = {"theme": THEME_DEFAULT}
                     save_users(users)
-                    return bot.send_message(message.chat.id, "✅ লগইন সফল!
+        return bot.send_message(message.chat.id, "✅ লগইন সফল!")
 /start দিয়ে শুরু করুন।")
         return bot.send_message(message.chat.id, "❌ ভুল পাসওয়ার্ড।")
 
